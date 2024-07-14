@@ -21,10 +21,10 @@ public class BasketballTeam extends SportsTeam{
 
 	public BasketballTeam(String teamName, String teamMascot, String headCoach) {
 		super(teamName, teamMascot, headCoach);
-		this.fieldGoals=7;
-		this.fieldGoalsAttempted= 10;
-		this.freeThrows=4;
-		this.freeThrowsAttempted=7;
+		this.fieldGoals=0;
+		this.fieldGoalsAttempted= 0;
+		this.freeThrows=0;
+		this.freeThrowsAttempted=0;
 	}// end preferred constructor
 
 	public double fieldGoalPercentage() {
